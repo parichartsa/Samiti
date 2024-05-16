@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9645514D2B97B04D0015C4E2 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9645514C2B97B04D0015C4E2 /* MenuViewModel.swift */; };
+		964551502B97B4340015C4E2 /* MeditationDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9645514F2B97B4340015C4E2 /* MeditationDetailViewModel.swift */; };
+		966FB54F2B6E1D95008AB71B /* CalmMindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FB54E2B6E1D95008AB71B /* CalmMindApp.swift */; };
+		966FB5512B6E1D95008AB71B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FB5502B6E1D95008AB71B /* OnboardingView.swift */; };
+		966FB5532B6E1D98008AB71B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966FB5522B6E1D98008AB71B /* Assets.xcassets */; };
+		966FB5562B6E1D98008AB71B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966FB5552B6E1D98008AB71B /* Preview Assets.xcassets */; };
+		966FB55F2B6E4E01008AB71B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FB55E2B6E4E01008AB71B /* MenuView.swift */; };
+		966FB5622B6E755F008AB71B /* MeditationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FB5612B6E755F008AB71B /* MeditationDetailView.swift */; };
+		966FB5642B6EA6CB008AB71B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FB5632B6EA6CA008AB71B /* CircleView.swift */; };
+		966FB5662B6EA710008AB71B /* MusicTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FB5652B6EA710008AB71B /* MusicTimelineView.swift */; };
+		966FB56A2B6EA7CD008AB71B /* MeditationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FB5692B6EA7CD008AB71B /* MeditationCell.swift */; };
+		966FB56C2B6EA812008AB71B /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FB56B2B6EA812008AB71B /* CategoryCell.swift */; };
+		96A6256D2B77B8810018CC6F /* MeditationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FB5672B6EA791008AB71B /* MeditationModel.swift */; };
+		B857A93A2BF2C63700BFB918 /* audioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B857A9392BF2C63600BFB918 /* audioManager.swift */; };
+		B857A93C2BF2CB2900BFB918 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B857A93B2BF2CB2900BFB918 /* music1.mp3 */; };
+		B857A93E2BF3334E00BFB918 /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B857A93D2BF3334E00BFB918 /* music2.mp3 */; };
+		B857A9402BF333CA00BFB918 /* music3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B857A93F2BF333CA00BFB918 /* music3.mp3 */; };
+		B857A9422BF3340E00BFB918 /* music4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B857A9412BF3340D00BFB918 /* music4.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9645514C2B97B04D0015C4E2 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		9645514F2B97B4340015C4E2 /* MeditationDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationDetailViewModel.swift; sourceTree = "<group>"; };
+		966FB54B2B6E1D95008AB71B /* CalmMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalmMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		966FB54E2B6E1D95008AB71B /* CalmMindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmMindApp.swift; sourceTree = "<group>"; };
+		966FB5502B6E1D95008AB71B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		966FB5522B6E1D98008AB71B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		966FB5552B6E1D98008AB71B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		966FB55E2B6E4E01008AB71B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		966FB5612B6E755F008AB71B /* MeditationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationDetailView.swift; sourceTree = "<group>"; };
+		966FB5632B6EA6CA008AB71B /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		966FB5652B6EA710008AB71B /* MusicTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTimelineView.swift; sourceTree = "<group>"; };
+		966FB5672B6EA791008AB71B /* MeditationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationModel.swift; sourceTree = "<group>"; };
+		966FB5692B6EA7CD008AB71B /* MeditationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationCell.swift; sourceTree = "<group>"; };
+		966FB56B2B6EA812008AB71B /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		B857A9392BF2C63600BFB918 /* audioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioManager.swift; sourceTree = "<group>"; };
+		B857A93B2BF2CB2900BFB918 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		B857A93D2BF3334E00BFB918 /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
+		B857A93F2BF333CA00BFB918 /* music3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music3.mp3; sourceTree = "<group>"; };
+		B857A9412BF3340D00BFB918 /* music4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music4.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		966FB5482B6E1D95008AB71B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		964551512B98F1690015C4E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				966FB5672B6EA791008AB71B /* MeditationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		966FB5422B6E1D95008AB71B = {
+			isa = PBXGroup;
+			children = (
+				966FB54D2B6E1D95008AB71B /* CalmMind */,
+				966FB54C2B6E1D95008AB71B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		966FB54C2B6E1D95008AB71B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966FB54B2B6E1D95008AB71B /* CalmMind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966FB54D2B6E1D95008AB71B /* CalmMind */ = {
+			isa = PBXGroup;
+			children = (
+				966FB54E2B6E1D95008AB71B /* CalmMindApp.swift */,
+				966FB55C2B6E1DC4008AB71B /* OnboardingView */,
+				966FB55D2B6E4DED008AB71B /* MainView */,
+				966FB5602B6E7547008AB71B /* DetailedView */,
+				966FB5522B6E1D98008AB71B /* Assets.xcassets */,
+				B857A93B2BF2CB2900BFB918 /* music1.mp3 */,
+				B857A93D2BF3334E00BFB918 /* music2.mp3 */,
+				B857A93F2BF333CA00BFB918 /* music3.mp3 */,
+				B857A9412BF3340D00BFB918 /* music4.mp3 */,
+				966FB5542B6E1D98008AB71B /* Preview Content */,
+			);
+			path = CalmMind;
+			sourceTree = "<group>";
+		};
+		966FB5542B6E1D98008AB71B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				966FB5552B6E1D98008AB71B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		966FB55C2B6E1DC4008AB71B /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				966FB5502B6E1D95008AB71B /* OnboardingView.swift */,
+			);
+			path = OnboardingView;
+			sourceTree = "<group>";
+		};
+		966FB55D2B6E4DED008AB71B /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				9645514C2B97B04D0015C4E2 /* MenuViewModel.swift */,
+				966FB55E2B6E4E01008AB71B /* MenuView.swift */,
+				966FB56E2B6EA8DC008AB71B /* Cells */,
+				964551512B98F1690015C4E2 /* Model */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		966FB5602B6E7547008AB71B /* DetailedView */ = {
+			isa = PBXGroup;
+			children = (
+				9645514F2B97B4340015C4E2 /* MeditationDetailViewModel.swift */,
+				966FB5612B6E755F008AB71B /* MeditationDetailView.swift */,
+				966FB56D2B6EA8D3008AB71B /* Views */,
+				B857A9392BF2C63600BFB918 /* audioManager.swift */,
+			);
+			path = DetailedView;
+			sourceTree = "<group>";
+		};
+		966FB56D2B6EA8D3008AB71B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				966FB5632B6EA6CA008AB71B /* CircleView.swift */,
+				966FB5652B6EA710008AB71B /* MusicTimelineView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		966FB56E2B6EA8DC008AB71B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				966FB5692B6EA7CD008AB71B /* MeditationCell.swift */,
+				966FB56B2B6EA812008AB71B /* CategoryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		966FB54A2B6E1D95008AB71B /* CalmMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966FB5592B6E1D98008AB71B /* Build configuration list for PBXNativeTarget "CalmMind" */;
+			buildPhases = (
+				966FB5472B6E1D95008AB71B /* Sources */,
+				966FB5482B6E1D95008AB71B /* Frameworks */,
+				966FB5492B6E1D95008AB71B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalmMind;
+			productName = CalmMind;
+			productReference = 966FB54B2B6E1D95008AB71B /* CalmMind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		966FB5432B6E1D95008AB71B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					966FB54A2B6E1D95008AB71B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 966FB5462B6E1D95008AB71B /* Build configuration list for PBXProject "CalmMind" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 966FB5422B6E1D95008AB71B;
+			productRefGroup = 966FB54C2B6E1D95008AB71B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				966FB54A2B6E1D95008AB71B /* CalmMind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		966FB5492B6E1D95008AB71B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B857A9422BF3340E00BFB918 /* music4.mp3 in Resources */,
+				B857A93E2BF3334E00BFB918 /* music2.mp3 in Resources */,
+				B857A9402BF333CA00BFB918 /* music3.mp3 in Resources */,
+				966FB5562B6E1D98008AB71B /* Preview Assets.xcassets in Resources */,
+				B857A93C2BF2CB2900BFB918 /* music1.mp3 in Resources */,
+				966FB5532B6E1D98008AB71B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		966FB5472B6E1D95008AB71B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966FB5622B6E755F008AB71B /* MeditationDetailView.swift in Sources */,
+				966FB56C2B6EA812008AB71B /* CategoryCell.swift in Sources */,
+				966FB5642B6EA6CB008AB71B /* CircleView.swift in Sources */,
+				966FB55F2B6E4E01008AB71B /* MenuView.swift in Sources */,
+				966FB56A2B6EA7CD008AB71B /* MeditationCell.swift in Sources */,
+				9645514D2B97B04D0015C4E2 /* MenuViewModel.swift in Sources */,
+				B857A93A2BF2C63700BFB918 /* audioManager.swift in Sources */,
+				966FB5662B6EA710008AB71B /* MusicTimelineView.swift in Sources */,
+				966FB5512B6E1D95008AB71B /* OnboardingView.swift in Sources */,
+				96A6256D2B77B8810018CC6F /* MeditationModel.swift in Sources */,
+				964551502B97B4340015C4E2 /* MeditationDetailViewModel.swift in Sources */,
+				966FB54F2B6E1D95008AB71B /* CalmMindApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		966FB5572B6E1D98008AB71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		966FB5582B6E1D98008AB71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		966FB55A2B6E1D98008AB71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalmMind/Preview Content\"";
+				DEVELOPMENT_TEAM = W652FWVRGR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.siuzanna.CalmMind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		966FB55B2B6E1D98008AB71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalmMind/Preview Content\"";
+				DEVELOPMENT_TEAM = W652FWVRGR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.siuzanna.CalmMind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		966FB5462B6E1D95008AB71B /* Build configuration list for PBXProject "CalmMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966FB5572B6E1D98008AB71B /* Debug */,
+				966FB5582B6E1D98008AB71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966FB5592B6E1D98008AB71B /* Build configuration list for PBXNativeTarget "CalmMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966FB55A2B6E1D98008AB71B /* Debug */,
+				966FB55B2B6E1D98008AB71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 966FB5432B6E1D95008AB71B /* Project object */;
+}
